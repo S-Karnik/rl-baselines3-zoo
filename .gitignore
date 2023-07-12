@@ -31,3 +31,5 @@ keys/
 .cache
 *.lprof
 *.prof
+*.err
+*.out

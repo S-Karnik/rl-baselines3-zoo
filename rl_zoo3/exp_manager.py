@@ -171,7 +171,7 @@ class ExperimentManager:
         self.save_replay_buffer = save_replay_buffer
         self.show_progress = show_progress
 
-        self.log_path = f"{log_folder}/{self.algo}/"
+        self.log_path = f"{log_folder}/{self.algo}/seed={seed}/"
         self.save_path = os.path.join(
             self.log_path, f"{self.env_name}_{get_latest_run_id(self.log_path, self.env_name) + 1}{uuid_str}"
         )
