@@ -387,7 +387,7 @@ CarRacing-v2:
 
 Ant-v3: &mujoco-defaults
   env_wrapper:
-    - rl_zoo.gamma_time_to_go.GammaTimeFeatureWrapper
+    - rl_zoo3.gamma_time_to_go.GammaTimeFeatureWrapper
   normalize: true
   n_timesteps: !!float 1e6
   policy: 'MlpPolicy'
@@ -418,7 +418,7 @@ Swimmer-v3:
 
 HalfCheetah-v3:
   env_wrapper:
-    - rl_zoo.gamma_time_to_go.GammaTimeFeatureWrapper
+    - rl_zoo3.gamma_time_to_go.GammaTimeFeatureWrapper
   normalize: true
   n_envs: 1
   policy: 'MlpPolicy'
@@ -458,7 +458,7 @@ HalfCheetah-v3:
 
 Hopper-v3:
   env_wrapper:
-    - rl_zoo.gamma_time_to_go.GammaTimeFeatureWrapper
+    - rl_zoo3.gamma_time_to_go.GammaTimeFeatureWrapper
   normalize: true
   n_envs: 1
   policy: 'MlpPolicy'
@@ -574,7 +574,7 @@ Reacher-v2:
 
 Walker2d-v3:
   env_wrapper:
-    - rl_zoo.gamma_time_to_go.GammaTimeFeatureWrapper
+    - rl_zoo3.gamma_time_to_go.GammaTimeFeatureWrapper
   normalize: true
   n_envs: 1
   policy: 'MlpPolicy'
