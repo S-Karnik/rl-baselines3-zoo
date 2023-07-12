@@ -29,6 +29,8 @@ ALGOS: Dict[str, Type[BaseAlgorithm]] = {
     "ddpg": DDPG,
     "dqn": DQN,
     "ppo": PPO,
+    "ppo_t2g_gamma_time_limits_wrapper": PPO,
+    "ppo_t2g_time_limits_wrapper": PPO,
     "sac": SAC,
     "td3": TD3,
     # SB3 Contrib,
